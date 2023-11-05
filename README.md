@@ -98,3 +98,59 @@ QA & Front-end Development              :done, ale2, 2023-10-22, 7d
 ```
 
 
+
+```mermaid
+gantt
+title Project Timeline
+dateFormat YYYY-MM-DD
+excludes weekends
+section Carlos Segarra
+Microservices for API & File Watcher     :des1, 2023-09-25, 7d
+FAST API Service Development            :after des1, 2023-10-01, 7d
+File Watch Service                      :2023-10-01, 7d
+Pytests Creation                        :after des1, 7d
+Dockerization of Services               :2023-10-01, 14d
+Refactoring & Logging Standards         :des2, 2023-10-02, 7d
+Standard Logger & Directory Structure   :2023-10-08, 7d
+Finalizing API Routes                   :2023-10-15, 7d
+Research on FastAPI & RabbitMQ          :2023-10-15, 7d
+Integrating RabbitMQ                    :2023-10-15, 7d
+Brandi Chatbot & FastAPI Routes         :des3, 2023-10-15, 7d
+Collaboration with Pedro                :2023-10-15, 7d
+Adding Pytests & Streamlit Demo         :2023-10-15, 7d
+Auth0 & Streamlit Demo Deployment       :2023-10-22, 7d
+
+section Pedro Pacheco
+Stable Horde & Diffusion Prompts        :ped1, 2023-09-25, 7d
+Horde Client Refactoring                :2023-10-02, 7d
+Project Directory & File Structure      :2023-10-08, 7d
+Code Quality                    :2023-10-15, 7d
+Code Modularity & Stability             :2023-10-15, 7d
+Horde Client Refactor & Robustness      :2023-10-15, 7d
+Collaboration with Carlos               :2023-10-15, 7d
+Integration with main API start         :2023-10-22, 7d
+Integration with main API        :2023-10-29, 7d
+Training custom Llama model        :2023-10-29, 7d
+
+section Johnathan Grossman
+Tree Site Optimization & Bug Fixes           :jon1, 2023-09-25, 7d
+Deployment & Research                   :2023-10-02, 7d
+Automated Deployment Scripts            :2023-10-08, 7d
+Deployment Git Action                   :2023-10-15, 7d
+Firehose 360                            :2023-10-15, 7d
+Dockerized Deployment script            :2023-10-15, 7d
+Chat Frontend                           :2023-10-15, 7d
+OAuth                                  :2023-10-22, 7d
+Chat App Deployment                     :2023-10-22, 7d
+Frontend Data Streaming                 :2023-10-22, 7d
+Chat History                            :2023-10-28, 7d
+Chat Production Deployment              :2023-10-28, 7d
+
+section Alejandro Velasquez
+QA Testing & Tool Creation              :ale1, 2023-09-25, 7d
+Dynamic Testing Project                 :2023-10-02, 7d
+Learning & Containerization             :2023-10-08, 7d
+QA Testing & Docker Playwright          :2023-10-15, 7d
+QA & Front-end Development              :2023-10-22, 7d
+```
+
