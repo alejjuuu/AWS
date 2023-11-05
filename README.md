@@ -48,3 +48,53 @@ QA & Front-end Development              :active, ale2, 2023-10-22, 7d
 ```
 
 
+
+
+```mermaid
+gantt
+title Project Timeline
+dateFormat YYYY-MM-DD
+excludes weekends
+section Carlos Segarra
+Microservices for API & File Watcher     :done, des1, 2023-09-25, 7d
+FAST API Development                    :done, after des1, 2023-10-01, 7d
+File Watch Service                      :done, after des1, 2023-10-01, 7d
+Pytests Creation                        :done, after des1, 7d
+Dockerization of Services               :done, after des1, 14d
+Refactoring & Logging Standards         :done, des2, 2023-10-02, 7d
+Standard Logger & Directory Structure   :done, after des2, 2023-10-08, 7d
+Finalizing API Routes                   :done, after des2, 2023-10-15, 7d
+Research on FastAPI & RabbitMQ          :done, after des2, 2023-10-15, 7d
+Integrating RabbitMQ                    :done, after des2, 2023-10-15, 7d
+Brandi Chatbot & FastAPI Routes         :done, des3, 2023-10-15, 7d
+Collaboration with Pedro                :done, after des3, 7d
+Adding Pytests & Streamlit Demo         :done, after des3, 7d
+Auth0 & Streamlit Demo Deployment       :done, after des3, 2023-10-29, 7d
+
+section Pedro Pacheco
+Stable Horde & Diffusion Prompts        :done, ped1, 2023-09-25, 7d
+Horde Client Refactoring                :done, after ped1, 2023-10-01, 7d
+Project Directory & File Structure      :done, after ped1, 2023-10-08, 7d
+Code Quality & Pytests                  :done, after ped1, 2023-10-15, 7d
+Code Modularity & Stability             :done, after ped1, 2023-10-15, 7d
+Horde Client Refactor & Robustness      :done, ped2, 2023-10-15, 7d
+Writing Pytests & Integration           :done, after ped2, 2023-10-22, 7d
+Integration & "Chatting to Data" Demo   :done, after ped2, 2023-10-29, 7d
+
+section Johnathan Grossman
+Site Optimization & Bug Fixes           :done, jon1, 2023-09-25, 7d
+Deployment & Research                   :done, after jon1, 2023-10-01, 7d
+Bash & Node.js Scripts                  :done, after jon1, 2023-10-08, 7d
+Deployment Git Action & Firehose 360    :done, after jon1, 2023-10-15, 7d
+Docker Container & Chat Frontend        :done, jon2, 2023-10-15, 7d
+OAuth & Chat App Deployment             :done, after jon2, 2023-10-22, 7d
+
+section Alejandro Velasquez
+QA Testing & Tool Creation              :done, ale1, 2023-09-25, 7d
+Dynamic Testing Project                 :done, after ale1, 2023-10-01, 7d
+Learning & Containerization             :done, after ale1, 2023-10-08, 7d
+QA Testing & Docker Playwright          :done, after ale1, 2023-10-15, 7d
+QA & Front-end Development              :done, ale2, 2023-10-22, 7d
+'''
+
+
