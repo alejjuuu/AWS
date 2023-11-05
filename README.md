@@ -95,6 +95,6 @@ Dynamic Testing Project                 :done, after ale1, 2023-10-01, 7d
 Learning & Containerization             :done, after ale1, 2023-10-08, 7d
 QA Testing & Docker Playwright          :done, after ale1, 2023-10-15, 7d
 QA & Front-end Development              :done, ale2, 2023-10-22, 7d
-'''
+```
 
 
