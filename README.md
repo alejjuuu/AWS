@@ -48,9 +48,6 @@ QA & Front-end Development              :active, ale2, 2023-10-22, 7d
 ```
 
 
-<style>
-svg {
-  background-color: white;
-}
+
   </style>
 
